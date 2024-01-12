@@ -1,1 +1,37 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #e0e0e0;
+        }
+        .weather-container {
+            margin-top: 50px;
+        }
+        .weather-info {
+            margin: 20px;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Our Weather App</h1>
+    <div class="weather-container">
+        <div class="weather-info">
+            <h2>Weather Information</h2>
+            <p id="location">Location: <span>---</span></p>
+            <p id="temperature">Temperature: <span>---</span>°F</p>
+            <p id="condition">Condition: <span>---</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
